@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import DesktopNavBar from "../navbar/DesktopNavBar.jsx";
+import styles from "./Home.module.css";
 
 export default function Home() {
     return (
-        <>
+        <div className={styles.background}>
             <DesktopNavBar />
 
             <div>
@@ -16,6 +17,6 @@ export default function Home() {
             <Link to="/destination">
                 <button>Explore</button>
             </Link>
-        </>
+        </div>
     )
 };
