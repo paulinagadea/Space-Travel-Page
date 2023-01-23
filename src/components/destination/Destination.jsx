@@ -1,13 +1,14 @@
 import { useState } from "react";
 import DestinationData from "./DestinationData.jsx";
 import DesktopNavBar from "../navbar/DesktopNavBar.jsx";
+import styles from "./Destination.module.css";
 
 export default function Destination() {
     const [currentContent, setCurrentContent] = useState("moon");
     const { data } = DestinationData(currentContent);
 
     return (
-        <>
+        <div className={styles.bkg}>
             <DesktopNavBar />
 
             <h4>01 Pick your destination</h4>
@@ -42,6 +43,6 @@ export default function Destination() {
                     <h4>{data.travel}</h4>
                 </div>
             </div>
-        </>
+        </div>
     )
 };

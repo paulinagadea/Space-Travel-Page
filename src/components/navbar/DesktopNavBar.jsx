@@ -8,18 +8,26 @@ export default function DesktopNavBar() {
             <span className={styles.line}></span>
         <nav className={styles.nav}>
             <ul className={styles.content}>
-                <Link to="/">
-                    <li><span>00</span> Home</li>
-                </Link>
-                <Link to="/destination">
-                    <li><span>01</span> Destination</li>
-                </Link>
-                <Link to="/crew">
-                    <li><span>02</span> Crew</li>
-                </Link>
-                <Link to="/technology">
-                    <li><span>03</span> Technology</li>
-                </Link>
+                <li>
+                    <Link to="/" activeClassName='active' inactiveClassName='inactive'>
+                        <span>00</span> Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/destination" activeClassName='active' inactiveClassName='inactive'>
+                        <span>01</span> Destination
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/crew" activeClassName='active' inactiveClassName='inactive'>
+                        <span>02</span> Crew
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/technology" activeClassName='active' inactiveClassName='inactive'>
+                        <span>03</span> Technology
+                    </Link>
+                </li>
             </ul>
         </nav>
         </div>
