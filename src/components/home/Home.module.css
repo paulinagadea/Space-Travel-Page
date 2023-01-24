@@ -166,5 +166,9 @@
         width: 220px;
         margin: 60px;
     }
+
+    .button:hover::after {
+        border: 50px solid hsla(0, 0%, 100%, 0.15);
+    }
 }
 
