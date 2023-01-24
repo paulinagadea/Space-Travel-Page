@@ -164,7 +164,7 @@
     .button {
         height: 220px;
         width: 220px;
-        margin: 60px;
+        padding: 60px;
     }
 
     .button:hover::after {
