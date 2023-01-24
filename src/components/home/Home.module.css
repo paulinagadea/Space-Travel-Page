@@ -138,6 +138,8 @@
     .background {
         background: url(../../../public/assets/home/background-home-mobile.jpg) center no-repeat;
         background-size: cover;
+        overflow: hidden;
+        height: 100%;
     }
 
     .container {
