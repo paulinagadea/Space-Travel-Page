@@ -138,7 +138,6 @@
     .background {
         background: url(../../../public/assets/home/background-home-mobile.jpg) center no-repeat;
         background-size: cover;
-        overflow: hidden;
         height: 100%;
     }
 
@@ -166,14 +165,6 @@
         height: 220px;
         width: 220px;
         margin: 60px;
-    }
-
-    .button::after {
-        display: none;
-    }
-    
-    .button:hover::after {
-        display: none;
     }
 }
 
