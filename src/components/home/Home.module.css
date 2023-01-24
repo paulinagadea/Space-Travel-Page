@@ -137,7 +137,6 @@
 @media screen and (max-width: 425px) {
     .background {
         background: url(../../../public/assets/home/background-home-mobile.jpg) center no-repeat;
-        height: 100%;
         background-size: cover;
     }
 
@@ -164,7 +163,15 @@
     .button {
         height: 220px;
         width: 220px;
-        margin: 30px;
+        margin: 60px;
+    }
+
+    .button::after {
+        display: none;
+    }
+    
+    .button:hover::after {
+        display: none;
     }
 }
 
