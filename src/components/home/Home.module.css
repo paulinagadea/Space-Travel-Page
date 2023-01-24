@@ -164,11 +164,11 @@
     .button {
         height: 220px;
         width: 220px;
-        padding: 60px;
+        margin: 0;
     }
 
-    .button:hover::after {
-        border: 50px solid hsla(0, 0%, 100%, 0.15);
+    .button:hover {
+        display: none;
     }
 }
 
