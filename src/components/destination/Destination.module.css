@@ -7,15 +7,15 @@
 
 .box {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .dest {
-    width: 40%;
+    /* width: 40%; */
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     letter-spacing: 4.72px;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -24,6 +24,8 @@
 .dest h4 {
     font-weight: 100;
     color: #ffffff;
+    margin-bottom: 50px;
+
 }
 
 .dest span {
@@ -31,10 +33,6 @@
     font-weight: 800;
     font-size: 30px;
     margin-right: 3%;
-}
-
-.dest h4 {
-    margin-bottom: 50px;
 }
 
 .dest img {
@@ -47,7 +45,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .info h1 {
@@ -66,7 +64,7 @@
     line-height: 2;
     font-size: 16px;
     color: #d0d6f9;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .info ul {
@@ -83,7 +81,7 @@
     font-size: 16px;
     position: relative;
     display: block;
-    padding-block: 20px;
+    padding-block: 15px;
     color: hsla(0, 0%, 100%, 0.7);
     border: none;
     background: none;
@@ -110,7 +108,7 @@
     height: 1px;
     width: 85%;    
     background-color: hsla(0, 0%, 100%, 0.4);
-    margin: 40px 0 25px 0;
+    margin: 30px 0 20px 0;
 }
 
 .data {
