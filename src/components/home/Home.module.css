@@ -142,10 +142,8 @@
 /* mobile */
 @media screen and (max-width: 425px) {
     .background {
-        background: url(../../../public/assets/home/background-home-mobile.jpg);
-        background-position: bottom center;
+        background: url(../../../public/assets/home/background-home-mobile.jpg) center no-repeat;
         background-size: cover;
-        height: 100%;
     }
 
     .container {
