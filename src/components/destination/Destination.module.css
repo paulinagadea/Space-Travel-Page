@@ -13,7 +13,6 @@
 }
 
 .dest {
-    /* width: 40%; */
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 26px;
     letter-spacing: 4.72px;
@@ -134,4 +133,82 @@
     color: hsla(0, 0%, 100%, 0.5);
     font-weight: 100;
     margin-bottom: 10px;
+}
+
+/* ________________ desktop ___________________________ */
+
+@media screen and (max-width: 1024px) {
+    .dest img {
+        width: 300px;
+        height: 300px;
+        margin-left: 35px;
+    }
+
+    .dest {
+        font-size: 20px;
+        letter-spacing: 4.60px;
+        margin-bottom: 30px;
+    }
+
+    .dest span {
+        font-size: 27px;
+    }
+
+    .info h1 {
+        font-size: 65px;
+        font-weight: 200;
+        margin-top: 10px;
+    }
+
+    .info span {
+        margin-top: 10px;
+    }
+
+    .info ul {
+        gap: 2%;
+    }
+
+    .data h4 {
+        font-size: 23px;
+    }
+
+    .data h5 {
+        font-size: 12px;
+    }
+}
+
+/* ________________ tablet ___________________________ */
+
+@media screen and (max-width: 768px) {
+    .bkg {
+        background: url(../../../public/assets/destination/background-destination-tablet.jpg) center no-repeat;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .box {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dest {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    .dest h4 {
+        margin-left: 40px;
+    }
+
+    .dest span {
+        font-size: 30px;
+    }
+
+    .dest img {
+        align-self: center;
+        margin: 0;
+    }
 }

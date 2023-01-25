@@ -143,9 +143,8 @@
 @media screen and (max-width: 425px) {
     .background {
         background: url(../../../public/assets/home/background-home-mobile.jpg) center no-repeat;
+        overflow: hidden;
         background-size: cover;
-        display: flex;
-        flex-direction: column;
     }
 
     .container {
