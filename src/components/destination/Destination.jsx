@@ -40,11 +40,11 @@ export default function Destination() {
                 <span className={styles.line}></span>
                 
                 <div className={styles.data}>
-                <div>
+                <div className={styles.data2}>
                     <h5>Avg. distance</h5>
                     <h4>{data.distance}</h4>
                 </div>
-                <div>
+                <div className={styles.data2}>
                     <h5>Est. Travel Time</h5>
                     <h4>{data.travel}</h4>
                 </div>
