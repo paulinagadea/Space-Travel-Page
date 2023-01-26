@@ -261,3 +261,13 @@
         align-items: center;    
     }
 }
+
+/* ________________ mobile ___________________________ */
+
+@media screen and (max-width: 425px) {
+    .bkg {
+        background: url(../../../public/assets/destination/background-destination-mobile.jpg) center no-repeat;
+        height: 100%; 
+        background-size: cover;
+    }
+}
