@@ -21,16 +21,36 @@ export default function Destination() {
             <nav>
                 <ul>
                     <li>
-                        <button onClick={() => setCurrentContent("moon")}>Moon</button>
+                        <button onClick={() => setCurrentContent("moon")}
+                        className={
+                            currentContent === 'moon'
+                                ? styles.active
+                                : ''
+                        }>Moon</button>
                     </li>
                     <li>
-                        <button onClick={() => setCurrentContent("mars")}>Mars</button>
+                        <button onClick={() => setCurrentContent("mars")}
+                        className={
+                            currentContent === 'mars'
+                                ? styles.active
+                                : ''
+                        }>Mars</button>
                     </li>
                     <li>
-                        <button onClick={() => setCurrentContent("europa")}>Europa</button>
+                        <button onClick={() => setCurrentContent("europa")}
+                        className={
+                            currentContent === 'europa'
+                                ? styles.active
+                                : ''
+                        }>Europa</button>
                     </li>
                     <li>
-                        <button onClick={() => setCurrentContent("titan")}>Titan</button>
+                        <button onClick={() => setCurrentContent("titan")}
+                        className={
+                            currentContent === 'titan'
+                                ? styles.active
+                                : ''
+                        }>Titan</button>
                     </li>
                 </ul>
             </nav>

@@ -96,6 +96,14 @@
     transition: 0.3s ease-in-out;
 }
 
+.info .active::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
 .info button:hover::after {
     width: 100%;
     left: 0;

@@ -22,16 +22,36 @@ export default function Crew() {
                     <nav>
                         <ul>
                             <li>
-                                <button onClick={() => setCurrentContent(1)}></button>
+                                <button onClick={() => setCurrentContent(1)}
+                                className={
+                                    currentContent === 1
+                                        ? styles.active
+                                        : ''
+                                }></button>
                             </li>
                             <li>
-                                <button onClick={() => setCurrentContent(2)}></button>
+                                <button onClick={() => setCurrentContent(2)}
+                                className={
+                                    currentContent === 2
+                                        ? styles.active
+                                        : ''
+                                }></button>
                             </li>
                             <li>
-                                <button onClick={() => setCurrentContent(3)}></button>
+                                <button onClick={() => setCurrentContent(3)}
+                                className={
+                                    currentContent === 3
+                                        ? styles.active
+                                        : ''
+                                }></button>
                             </li>
                             <li>
-                                <button onClick={() => setCurrentContent(4)}></button>
+                                <button onClick={() => setCurrentContent(4)}
+                                className={
+                                    currentContent === 4
+                                        ? styles.active
+                                        : ''
+                                }></button>
                             </li>
                         </ul>
                     </nav>

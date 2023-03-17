@@ -19,6 +19,14 @@
     align-items: center;
 }
 
+.nav .active::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
 .content {
     display: flex;
     list-style: none;

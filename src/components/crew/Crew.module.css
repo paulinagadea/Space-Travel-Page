@@ -69,7 +69,21 @@
     display: flex;
     list-style: none;
     padding: 0;
-    gap: 3%;
+    gap: 4%;
+    margin-top: 70px;
+}
+
+.crewContainer button {
+    background-color: hsla(0, 0%, 100%, 0.4);
+    border-radius: 50%;
+    border: none;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.crewContainer .active {
+    background-color: #ffffff;
 }
 
 .imgBox {

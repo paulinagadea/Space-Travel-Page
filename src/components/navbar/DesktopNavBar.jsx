@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./NavBar.module.css";
 
 export default function DesktopNavBar() {
@@ -9,24 +9,32 @@ export default function DesktopNavBar() {
         <nav className={styles.nav}>
             <ul className={styles.content}>
                 <li>
-                    <Link to="/" activeClassName='active' inactiveClassName='inactive'>
+                    <NavLink to="/"
+                        className={({ isActive }) => isActive ? styles.active : ""
+                    }>
                         <span>00</span> Home
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/destination" activeClassName='active' inactiveClassName='inactive'>
+                    <NavLink to="/destination" 
+                        className={({ isActive }) => isActive ? styles.active : ""
+                    }>
                         <span>01</span> Destination
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/crew" activeClassName='active' inactiveClassName='inactive'>
+                    <NavLink to="/crew" 
+                        className={({ isActive }) => isActive ? styles.active : ""
+                    }>
                         <span>02</span> Crew
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/technology" activeClassName='active' inactiveClassName='inactive'>
+                    <NavLink to="/technology"
+                        className={({ isActive }) => isActive ? styles.active : ""
+                    }>
                         <span>03</span> Technology
-                    </Link>
+                    </NavLink>
                 </li>
             </ul>
         </nav>
