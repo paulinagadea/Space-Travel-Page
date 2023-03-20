@@ -1,0 +1,112 @@
+.backg {
+    background: url(../../../public/assets/technology/background-technology-desktop.jpg) center no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.mainbox {
+    display: flex;
+    align-items: center;
+    margin: 60px 0 0 5%;
+}
+
+.databox {
+
+}
+
+.info {
+    margin-left: 60px;
+}
+
+.databox h4 {
+    font-weight: 100;
+    color: #ffffff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    letter-spacing: 4.72px;
+    text-transform: uppercase;
+    margin: 0 0 70px 55px;
+}
+
+.databox span {
+    color: hsla(0, 0%, 100%, 0.4);
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 3%;
+}
+
+.mainbox nav {
+    display: flex;
+}
+
+.mainbox ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    /* padding: 0; */
+    justify-content: space-between;
+}
+
+.mainbox button {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 1px solid hsla(0, 0%, 100%, 0.4);
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Bellefair;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mainbox button:hover {
+    border-color: #ffffff;
+}
+
+.mainbox .active {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+}
+
+.mainbox img {
+    height: 33vw;
+}
+
+.data {
+    margin: 30px 0 20px 0; 
+    height: 70%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data h3 {
+    text-transform: uppercase;
+    font-family: Bellefair, sans-serif;
+    /* font-size: 32px; */
+    color: #d0d6f9;
+    font-weight: 300;
+    /* margin-bottom: 20px; */
+    letter-spacing: 2px;
+}
+
+.data h1 {
+    text-transform: uppercase;
+    font-family: Bellefair, sans-serif;
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 30px 0 30px 0;
+}
+
+.data p {
+    /* width: 80%; */
+    font-family: sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 2;
+    font-size: 16px;
+    color: #d0d6f9;
+    /* margin-top: 30px; */
+}

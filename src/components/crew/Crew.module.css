@@ -8,7 +8,6 @@
 .mainContainer {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .crewContainer {
@@ -26,13 +25,12 @@
     font-size: 56px;
     color: #ffffff;
     font-weight: 300;
-
 }
 
 .crewContainer h4 {
     font-weight: 100;
     color: #ffffff;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 26px;
     letter-spacing: 4.72px;
