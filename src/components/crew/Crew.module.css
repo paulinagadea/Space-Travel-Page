@@ -80,6 +80,10 @@
     cursor: pointer;
 }
 
+.crewContainer button:hover {
+    background-color: #d0d6f9;
+}
+
 .crewContainer .active {
     background-color: #ffffff;
 }
